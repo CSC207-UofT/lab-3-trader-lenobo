@@ -1,4 +1,4 @@
-public class GiantBee6969xx implements Drivable, Domesticatable {
+public class GiantBee6969xx implements Drivable, Domesticatable, Tradable {
 ;;;;private int xx_max_speed_xx;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;public GiantBee6969xx() {;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -28,4 +28,9 @@ public void downgradeSpeed() {;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 public int getMaxSpeed() {;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;return xx_max_speed_xx;
 };;;;;;;;;;;;;;;;;;;;;;;;
+
+    @Override
+    public int getPrice() {
+        return 2000;
+    }
 }

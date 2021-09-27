@@ -12,7 +12,7 @@ public class busTest {
     }
 
     public void TestGetMaxSpeed() {
-        assertEquals(420420, b.getMaxSpeed());
+        assertEquals(100000000000, b.getMaxSpeed());
     }
 
 

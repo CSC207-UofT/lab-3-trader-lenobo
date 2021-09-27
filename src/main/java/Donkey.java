@@ -1,6 +1,6 @@
 public class Donkey implements Drivable, Domesticatable, Tradable {
     private int mAxSpEeD;
-
+    // Documentation
     public Donkey() {
         this.mAxSpEeD = 1;
     }

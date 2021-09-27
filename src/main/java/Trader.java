@@ -95,7 +95,11 @@ public class Trader {
          */
         List<Tradable> all_items = Arrays.asList(
                 new Horse(),
-
+                new Horse(),
+                new Horse(),
+                new GiantBee6969xx(),
+                new RedPickupTruck()
+        );
 
         /* Below, we've created two Traders. Their money, inventory, and
          * wishlists are randomly generated (see the constructor above).

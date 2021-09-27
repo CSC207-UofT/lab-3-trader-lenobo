@@ -95,18 +95,13 @@ public class Trader {
          */
         List<Tradable> all_items = Arrays.asList(
                 new Horse(),
-                new Horse(),
-                new Horse(),
-                // TODO: Add Tradable objects here!
-                new Dog(),
-                new Dog()
-        );
+
 
         /* Below, we've created two Traders. Their money, inventory, and
          * wishlists are randomly generated (see the constructor above).
          */
         Trader trader1 = new Trader(all_items);
-        Trader trader2 = new Trader(all_items);
+        Trader trader2 = new Trader(all_iSubmit feedback andtems);
 
         System.out.println("Trader 1 details:\n" + trader1);
         System.out.println("Trader 2 details:\n" + trader2);

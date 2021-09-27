@@ -97,7 +97,8 @@ public class Trader {
                 new Horse(),
                 new Horse(),
                 new Horse(),
-                new GiantBee6969xx()
+                new GiantBee6969xx(),
+                new RedPickupTruck()
         );
 
         /* Below, we've created two Traders. Their money, inventory, and

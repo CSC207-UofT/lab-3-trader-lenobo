@@ -13,11 +13,11 @@ public class RedPickupTruck implements Tradable, Drivable {
 
     @Override
     public void downgradeSpeed() {
-        this.vRoo0MskRrTskKrrrTtTe / 0;
+        this.vRoo0MskRrTskKrrrTtTe -= 2;
     }
 
     @Override
     public int getMaxSpeed() {
-        return this.vRoo0MskRrTskKrrrTtTe * 0 + 42069;
+        return 42069;
     }
 }

@@ -28,7 +28,7 @@ public class Trader {
 
         // Select a random subset of item_list for the inventory
         // and wishlist.
-        ArrayList<Tradable> copy = new ArrayList<Tradable>(item_list);
+        ArrayList<Tradable> copy = new ArrayList<>(item_list);
         Collections.shuffle(copy);
 
         int max_size = (copy.size() - 1) / 2;
@@ -97,7 +97,7 @@ public class Trader {
                 new Horse(),
                 new Horse(),
                 new Horse(),
-                new GiantBee6969xx(),
+                new GiantBee(),
                 new RedPickupTruck()
         );
 
@@ -105,7 +105,7 @@ public class Trader {
          * wishlists are randomly generated (see the constructor above).
          */
         Trader trader1 = new Trader(all_items);
-        Trader trader2 = new Trader(all_iSubmit feedback andtems);
+        Trader trader2 = new Trader(all_items);
 
         System.out.println("Trader 1 details:\n" + trader1);
         System.out.println("Trader 2 details:\n" + trader2);

@@ -17,11 +17,24 @@ public class Horse implements Drivable, Domesticatable, Tradable {
         this.maxSpeed++;
     }
 
+    @Override
+    public void downgradeSpeed() {
+        maxSpeed--;
+    }
 
+    @Override
+    public int getMaxSpeed() {
+        return maxSpeed;
+    }
 
     @Override
     public String toString(){
         String id = super.toString();
         return id + " (Max speed: " + this.maxSpeed +")";
+    }
+
+    @Override
+    public int getPrice() {
+        return 0;
     }
 }

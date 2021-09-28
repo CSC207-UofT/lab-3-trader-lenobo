@@ -17,7 +17,7 @@ public class GiantBee implements Drivable, Domesticatable, Tradable {
 
     @Override
     public void downgradeSpeed() {
-        this.xx_max_speed_xx += 2;
+        this.xx_max_speed_xx -= 2;
     }
 
     @Override
